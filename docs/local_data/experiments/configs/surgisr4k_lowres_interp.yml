@@ -1,0 +1,5 @@
+task:
+  name: SurgiSR4K-lowres
+  dataset_config: ./data/configs/surgisr4k_480x270p_x2.yml
+  sr_model_config: ./sr/modeling/configs/interp.yml
+

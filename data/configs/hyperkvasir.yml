@@ -1,0 +1,13 @@
+dataset:
+  name: Hyperkvasir
+  title: HKvasir
+  relpath: Hyperkvasir/
+  relpath_input: BIx4/
+  relpath_gt: GT/
+  ignore_files: [SYNAPSE_METADATA_MANIFEST.tsv]
+  input_shape: [144, 180]
+  gt_shape: [576, 720]
+  scale_factor: 4
+  splits:
+    train: ./data/splits/hyperkvasir_train.txt
+    test: ./data/splits/hyperkvasir_test.txt

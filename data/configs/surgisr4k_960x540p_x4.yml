@@ -1,0 +1,13 @@
+dataset:
+  name: SurgiSR4K
+  title: $\text{Surgi-4}\times$
+  relpath: SurgiSR4K/data/images/
+  relpath_input: 960x540p/
+  relpath_gt: 3840x2160p/
+  ignore_files: [SYNAPSE_METADATA_MANIFEST.tsv]
+  input_shape: [540, 960]
+  gt_shape: [2160, 3840]
+  scale_factor: 4
+  splits:
+    train: ./data/splits/surgisr4k_train.txt
+    test: ./data/splits/surgisr4k_test.txt

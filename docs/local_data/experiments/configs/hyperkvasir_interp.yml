@@ -1,0 +1,5 @@
+task:
+  name: Hyperkvasir
+  dataset_config: ./data/configs/hyperkvasir.yml
+  sr_model_config: ./sr/modeling/configs/interp.yml
+

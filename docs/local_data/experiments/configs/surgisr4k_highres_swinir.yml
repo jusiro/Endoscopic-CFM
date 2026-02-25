@@ -1,0 +1,5 @@
+task:
+  name: SurgiSR4K-highres
+  dataset_config: ./data/configs/surgisr4k_960x540p_x4.yml
+  sr_model_config: ./sr/modeling/configs/swinir_light_x4.yml
+

@@ -1,0 +1,9 @@
+network:
+  name: SwinIR
+  embed_dim: 60
+  depths: [6, 6, 6, 6]
+  upscale: 2
+  upsampler: pixelshuffledirect
+  window_size: 8
+  mlp_ratio: 2
+  weights_path: ./docs/local_data/models_weights/swinir/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth
