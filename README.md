@@ -42,7 +42,7 @@ You will find the final and intermediate results at [`./docs/local_data/experime
 If you find this repository useful, please consider citing the following sources.
 
 ```
-@inproceedings{sstextu,
+@inproceedings{endoscopic_cfm,
     title={Trustworthy Endoscopic Super-Resolution},
     author={******},
     booktitle={arXiv preprint arXiv:xxxx.xxxxx},
