@@ -1,7 +1,7 @@
 import torch
 
 class ErrorNet(torch.nn.Module):
-    def __init__(self, embed_dim=60, depths=[60, 60, 60], upscale=4, dropout=True, **kwargs):
+    def __init__(self, embed_dim=60, depths=[64, 64], upscale=4, dropout=True, **kwargs):
         super().__init__()
         self.embed_dim = embed_dim
         self.depths = [embed_dim] + depths
