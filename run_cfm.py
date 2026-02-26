@@ -109,7 +109,7 @@ def process(opt):
         elif opt['conformal_procedure'] == 'sup_error':
             lambda_hat = get_lhat_superror([videos_pred[i][:,j,:,:].flatten() for i in idx_calib for j in range(videos_pred[i].shape[1])],
                                            [videos_ref[i][:,j,:,:].flatten() for i in idx_calib for j in range(videos_ref[i].shape[1])],
-                                           alpha_psnr=15)
+                                           alpha_psnr=target_psnr)
                                     
         # Evaluate on test data.
         print("  Evaluation ... [Split:{split}]".format(split='sub-test'))
