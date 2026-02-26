@@ -1,7 +1,7 @@
 network:
   name: ErrorNet
   subconfig: 2layer
-  depths: [60, 60]
+  depths: [64, 64]
 training:
   epochs: 30
   lr: 1e-3
