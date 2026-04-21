@@ -1,5 +1,10 @@
 # Trustworthy Endoscopic Super-Resolution
 
+[*Trustworthy Endoscopic Super-Resolution*](https://arxiv.org/abs/2604.18001).<br/>
+[Julio Silva-Rodríguez](https://scholar.google.com/citations?user=1UMYgHMAAAAJ), [Ender Konukoglu](https://scholar.google.com/citations?user=OeEMrhQAAAAJ) ⋅ Computer Vision Lab, ETH Zurich.
+<br/>
+
+
 ### Install
 
 * Install in your environment a compatible torch version with your GPU. For example:
