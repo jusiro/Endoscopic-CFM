@@ -44,8 +44,8 @@ If you find this repository useful, please consider citing the following sources
 ```
 @inproceedings{endoscopic_cfm,
     title={Trustworthy Endoscopic Super-Resolution},
-    author={******},
-    booktitle={arXiv preprint arXiv:xxxx.xxxxx},
+    author={Julio Silva-Rodríguez and Ender Konukoglu},
+    booktitle={arXiv preprint arXiv:2604.18001},
     year={2026}
 }
 ```
